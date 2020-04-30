@@ -1,0 +1,14 @@
+<?php
+echo "Nama saya : ".$_POST['nama'];
+echo "<br />";
+echo "Tempat lahir saya : ".$_POST['tempatlahir'];
+echo "<br />";
+echo "Tanggal lahir : ".$_POST['tanggallahir'];
+echo "<br />";
+echo "Alamat : ".$_POST['alamat'];
+echo "<br />";
+echo "Jenis : " .$_POST['sex'];
+echo "<br />";
+echo "Agama : ".$_POST['agama'];
+echo "<br />";
+?>  
