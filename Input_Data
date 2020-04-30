@@ -1,0 +1,19 @@
+<form method="post" action="proses-biodata.php"?>
+Nama            :<br><input type="textbox" id="nama" name="nama"><br>
+Tempat Lahir    :<br><input type="textbox" id="tempatLahir" name="tempatlahir"><br>
+Tanggal Lahir   :<br><input type="date" id="tanggallahir" name="tanggallahir"><br>
+Alamat          :<br><textarea rows="10" id="alamat" name="alamat"></textarea><br>
+Jenis Kelamin   :<br>
+                 <select name="sex">
+                 <option value="laki-laki">laki-laki<br> </option>
+                 <option value="perempuan">perempuan<br> </option>
+                 <select><br>
+Agama           :<br>
+                 <select name="agama">
+                 <option value="islam">islam<br> </option>
+                 <option value="kristen">kristen<br> </option>
+                 <option value="hindu">hindu<br> </option>
+                 <option value="budha">budha<br> </option>
+                 <select><br>
+<input type="submit" name="submit" value="simpan"> <input type="reset" name="reset" value="cancel">
+</form>           
